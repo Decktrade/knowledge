@@ -1,7 +1,6 @@
 {
   "folders": [
     {
-      "name": "knowledge",
       "path": "."
     },
     {
@@ -11,6 +10,9 @@
   "settings": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
+    "[markdown]": {
+      "editor.formatOnSave": false
+    },
     "markdown-preview-enhanced.enableScriptExecution": true,
     "workbench.colorTheme": "Ayu Light Bordered",
     "editor.fontSize": 14
