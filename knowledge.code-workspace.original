@@ -1,9 +1,11 @@
 {
   "folders": [
     {
+      "name": "mynet",
       "path": "."
     },
     {
+      "name": "knowledge",
       "path": "../knowledge_github.git"
     }
   ],
@@ -15,7 +17,8 @@
     },
     "markdown-preview-enhanced.enableScriptExecution": true,
     "workbench.colorTheme": "Ayu Light Bordered",
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "git-graph.date.format": "ISO Date & Time"
   },
   "extensions": {
     "recommendations": [
