@@ -1,0 +1,27 @@
+{
+  "folders": [
+    {
+      "name": "knowledge",
+      "path": "."
+    },
+    {
+      "path": "../knowledge_github.git"
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "workbench.colorTheme": "Ayu Light Bordered",
+    "editor.fontSize": 14
+  },
+  "extensions": {
+    "recommendations": [
+      "shd101wyy.markdown-preview-enhanced",
+      "teabyii.ayu",
+      "bierner.markdown-mermaid",
+      "esbenp.prettier-vscode",
+      "yzhang.markdown-all-in-one"
+    ]
+  }
+}
