@@ -36,7 +36,7 @@ $c = code --list-extensions; $c -replace '^(.+)$', 'code --install-extension $1'
 ワークスペースを作成すると、[ワークスペース名].code-workspace という名前のファイルが生成される。
 
 **現在の設定 ↓**
-@import "C:\000.Work\knowledge\knowledge.code-workspace"
+@import "..\knowledge.code-workspace"
 
 **1. folders タグ**
 ワークスペースに含まれるフォルダを設定する。

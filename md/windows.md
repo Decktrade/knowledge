@@ -20,7 +20,7 @@
 
 [参考](https://d-spport.jp/memorandum/sharepoint001/)
 
-@import "C:\000.Work\knowledge\md\external\Sharepoint_01.png"
+@import ".\external\Sharepoint_01.png"
 
 ##コマンド
 
