@@ -51,3 +51,30 @@ git branch -M main
 git remote add origin [Githubに取得したリポジトリのURL取得]
 git push -u origin main
 ```
+
+
+## ブランチ構成モデル
+[A successful Git branching model 日訳](https://qiita.com/homhom44/items/9f13c646fa2619ae63d0)
+
+### ブランチ一覧
+- masterブランチ
+ブランチ元：なし
+マージ先：なし
+ブランチ名ルール：master
+- developブランチ
+ブランチ元：masterブランチ
+マージ先：masterブランチ
+ブランチ名ルール：develop
+- 機能ブランチ(feature)
+ブランチ元：developブランチ
+マージ先：developブランチ
+ブランチ名ルール：master, develop, release-?, or hotfix-? 以外
+- リリースブランチ(Release)
+ブランチ元：developブランチ
+マージ先：developブランチ と masterブランチ
+ブランチ名ルール：release-XX(XXはバージョンを表す)
+- Hotfixブランチ
+ブランチ元：masterブランチ
+マージ先：developブランチ と masterブランチ
+ブランチ名ルール：hotfix-XX(XXはバージョンを表す)
+- 
