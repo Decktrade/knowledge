@@ -14,12 +14,15 @@
       - [Static NAT(静的 NAT)](#static-nat静的-nat)
       - [Dynamic NAT(動的 NAT)](#dynamic-nat動的-nat)
       - [ポートフォワーディング](#ポートフォワーディング)
+      - [Webサーバソフトウェア](#webサーバソフトウェア)
+      - [Apache（アパッチ）](#apacheアパッチ)
   - [データベース系](#データベース系)
       - [トランザクション](#トランザクション)
       - [コミット](#コミット)
       - [ロールバック](#ロールバック)
   - [その他](#その他)
-    - [ENOENT(Error NO ENTry)](#enoenterror-no-entry)
+      - [ENOENT(Error NO ENTry)](#enoenterror-no-entry)
+      - [SDK（Software Development Kit）](#sdksoftware-development-kit)
 
 # 用語集
 
@@ -111,6 +114,21 @@ NAT のうち、プライベート IP アドレスとグローバル IP アド�
 
 インターネットから特定のポート番号宛てに届いたパケットを、あらかじめ設定しておいた LAN 側の機器に転送する機能。
 
+#### Webサーバソフトウェア
+
+Webサーバ内でのデータの受け渡しなどを行うソフトウェアのこと。
+例）
+* Apache（アパッチ）
+* nginx
+* IIS（Internet Information Services）
+* Google Web Server
+
+#### Apache（アパッチ）
+
+Webサーバソフトウェアの一種。オープンソースで無料。
+Linuxの全ての主要ディストリビューションにプリインストールされている。
+正式名称は「Apache HTTP Server」。
+
 ## データベース系
 
 #### トランザクション
@@ -130,6 +148,22 @@ NAT のうち、プライベート IP アドレスとグローバル IP アド�
 
 ## その他
 
-### ENOENT(Error NO ENTry)
+#### ENOENT(Error NO ENTry)
 対象のファイル/フォルダ/ディレクトリが存在しないことを示すエラー。
 類義語：No such file or directory
+
+#### SDK（Software Development Kit）
+特定のシステムに順応したソフトウェアを開発するために必要なプログラムや文書などがパッケージ化されたもの。
+* コンパイラや実行環境
+* デバッガ
+* API
+* ライブラリ
+* ドライバ
+* サンプルコード
+
+
+例）
+Windows SDK：Windows用アプリケーションの開発用。Visual Studioに同梱。
+iOS SDK：iOS用アプリケーションの開発用。Xcodeに同梱。
+Android SDK：Android OS用アプリケーションの開発用。Android Studioに同梱。
+
