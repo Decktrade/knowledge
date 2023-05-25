@@ -9,8 +9,10 @@
 
 インポートできる形で
 
-```{cmd}
-$c = code --list-extensions; $c -replace '^(.+)$', 'code --install-extension $1' > code.txt; start .
+```ps1
+$c = code --list-extensions; 
+$c -replace '^(.+)$', 'code --install-extension $1' > code.txt; 
+Start-Process .
 ```
 
 ## ショートカット
@@ -36,7 +38,7 @@ $c = code --list-extensions; $c -replace '^(.+)$', 'code --install-extension $1'
 ワークスペースを作成すると、[ワークスペース名].code-workspace という名前のファイルが生成される。
 
 **現在の設定 ↓**
-@import "..\knowledge.code-workspace"
+@import "..\knowledge.code-workspace.original"
 
 **1. folders タグ**
 ワークスペースに含まれるフォルダを設定する。
