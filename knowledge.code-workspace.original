@@ -1,10 +1,6 @@
 {
   "folders": [
     {
-      "name": "mynet",
-      "path": "."
-    },
-    {
       "name": "knowledge",
       "path": "../knowledge_github.git"
     }
