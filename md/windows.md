@@ -37,3 +37,7 @@ Get-ChildItem -Recurse -Name -File -Filter *.ini > ls.ini.txt
 ```
 (Get-PSReadlineOption).HistorySavePath
 ```
+
+ping TTL指定オプション
+ping -i [TTL] 送り先
+※Linuxは -m [TTL]
