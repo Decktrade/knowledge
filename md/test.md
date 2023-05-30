@@ -120,6 +120,11 @@ html ファイル
 
 ---
 
+jsonファイル
+@import ".\external\test.json"
+
+---
+
 md ファイル
 @import ".\external\test.md"
 

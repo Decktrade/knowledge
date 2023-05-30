@@ -8,6 +8,10 @@
 ## Office
 
 ### Excel
+多機能アドイン
+詳細 ： https://confrage.jp/excel%E3%82%92%E8%B6%85%E4%BE%BF%E5%88%A9%E3%81%AB%E3%81%99%E3%82%8Brelaxtools-addin%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/
+
+
 
 #### CSV読込
 [参考](https://global-wing.com/activity/csv_character_code.html)
