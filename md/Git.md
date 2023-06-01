@@ -1,6 +1,8 @@
-#Git
+# Git
 
-###ローカルにリポジトリ作成
+## コマンド集
+
+### ローカルにリポジトリ作成
 
 1. リモートリポジトリ用のフォルダを用意し、初期化
    ※リモートリポジトリ用のフォルダは名前に _.git_ をつけるのが慣例
@@ -30,6 +32,27 @@ git remote add origin /path/to/gitdir.git
 ####最初のコミットは空コミットにしよう
 [参考](https://qiita.com/NorsteinBekkler/items/b2418cd5e14a52189d19)
 `git commit --allow-empty -m "first commit"`
+
+### ブランチを削除
+※現在のブランチは削除できないので、あらかじめ削除対象以外のブランチにチェックアウトする
+
+ローカルのブランチを削除 `git branch -d <branch>`
+例：`git branch -d fix/authentication`
+
+リモートのブランチを削除 `git push <remote> --delete <branch>`
+例：`git push origin --delete fix/authentication`
+
+### 強制プッシュ
+rebaseやresetを行ったあとなど、リモートブランチがローカルブランチより進んでいる状態のときには、通常のプッシュはエラーが出て実行できない。
+そのため、強制的にプッシュを行う。
+```
+git push -f <remote> <branch>
+git push --force <remote> <branch>
+```
+(上二つは同義)
+
+※複数人での開発の際は、`--force-with-lease`の使用が推奨されている。
+[参考](https://www-creators.com/archives/5168)
 
 ## Github
 
@@ -77,4 +100,4 @@ git push -u origin main
 ブランチ元：masterブランチ
 マージ先：developブランチ と masterブランチ
 ブランチ名ルール：hotfix-XX(XXはバージョンを表す)
-- 
+
