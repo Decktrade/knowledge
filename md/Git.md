@@ -75,11 +75,12 @@ git remote add origin [Githubに取得したリポジトリのURL取得]
 git push -u origin main
 ```
 
+## その他・運用ルールなど
 
-## ブランチ構成モデル
+### ブランチ構成モデル
 [A successful Git branching model 日訳](https://qiita.com/homhom44/items/9f13c646fa2619ae63d0)
 
-### ブランチ一覧
+#### ブランチ一覧
 - masterブランチ
 ブランチ元：なし
 マージ先：なし
@@ -101,3 +102,12 @@ git push -u origin main
 マージ先：developブランチ と masterブランチ
 ブランチ名ルール：hotfix-XX(XXはバージョンを表す)
 
+### コミットメッセージ
+|**接頭語**|**意味**|
+|:---:|:---|
+|[F]|Fix。バグ修正|
+|[A]|Add。新規追加|
+|[U]|Update。機能修正|
+|[R]|Remove。削除|
+|[WIP]|Work In Progress。作業中|
+|[US]|Update Submodule。サブモジュールのアップデート。中に対象のサブモジュール名や内容を記載|
