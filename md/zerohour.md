@@ -72,19 +72,19 @@ BOT-->>User: デッキ表示
 ```
 
 #### キャラピック用SQL
-~~~SQL
+```SQL
 SELECT
 *
 FROM
 M_CARDS
 WHERE
 CARD_ID in (RN1,RN2,RN3)
-~~~
+```
 RN: Random Number
 
 #### キャラピック用乱数生成
 
-~~~Python
+```Python
 from random import randint 
 
 # max:乱数の最大値(int)
@@ -102,10 +102,10 @@ def Random_Pick(max, exclude_list){
 		return n
 	}
 }
-~~~
+```
 
 #### pythonでSQL実行
-~~~python
+```python
 import mysql.connector
 
 # データベースに接続
@@ -133,4 +133,4 @@ with connection.cursor() as cursor:
  
 # 終了処理
 cursor.close()
-~~~
+```
