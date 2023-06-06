@@ -6,5 +6,5 @@
 ## エスケープ一覧
 [参考サイト](https://qiita.com/katsukii/items/1c1550f064b4686c04d4)
 
-@import ".\external\regex_escape.png"
+@import ".\external\regex.md\regex_escape.html"
 

@@ -1,0 +1,76 @@
+<html>
+<body>
+<table border="1">
+  <tr>
+    <th style="text-align:center;">エスケープ前</th>
+    <th style="text-align:center;">エスケープ後</th>
+    <th style="text-align:left;">注意点</th>
+  </tr>
+  <tr>
+    <td style="text-align:center;">\</td>
+    <td style="text-align:center;">\\</td>
+    <td style="text-align:left;">エスケープを行う文字そのものなので、\ だけの記述はできません。\ にマッチングさせたい場合は \\ と記述してください。</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">*</td>
+    <td style="text-align:center;">\*</td>
+    <td style="text-align:left;"></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">+</td>
+    <td style="text-align:center;">\+</td>
+    <td style="text-align:left;"></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">.</td>
+    <td style="text-align:center;">\.</td>
+    <td style="text-align:left;"></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">?</td>
+    <td style="text-align:center;">\?</td>
+    <td style="text-align:left;"></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">{ }</td>
+    <td style="text-align:center;">\{\}</td>
+    <td style="text-align:left;">出現回数指定文字なのでエスケープが必要</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">( )</td>
+    <td style="text-align:center;">\(\)</td>
+    <td style="text-align:left;">エスケープしないと後方参照が作成される。またはグループ化される。</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">[ ]</td>
+    <td style="text-align:center;">\[\]</td>
+    <td style="text-align:left;">直前文字の出現回数指定文字なのでエスケープが必要</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">^</td>
+    <td style="text-align:center;">\^</td>
+    <td style="text-align:left;">行頭を指定することになる。</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">$</td>
+    <td style="text-align:center;">\$</td>
+    <td style="text-align:left;">行末を指定することになる。Perlの場合は、変数の先頭文字である。</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">-</td>
+    <td style="text-align:center;">\-</td>
+    <td style="text-align:left;">[　]の中に書く場合のみエスケープが必要</td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">|</td>
+    <td style="text-align:center;">\|</td>
+    <td style="text-align:left;"></td>
+  </tr>
+  <tr>
+    <td style="text-align:center;">/</td>
+    <td style="text-align:center;">\/</td>
+    <td style="text-align:left;">Perlでは / が正規表現の指定になるのでエスケープが必要。言語によっては、&quot; がエスケープ必要となる。</td>
+  </tr>
+</table>
+</body>
+</html>
