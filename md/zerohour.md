@@ -1,17 +1,25 @@
 # mermaid
 
+### 用語(翻訳)
+[困ったらここ](https://genshin-dictionary.com/ja/talents/)
+|日本語|English|
+|:--|:--|
+|カード|Cards|
+|天賦|Talents|
+
+
 ### ER 図
 
 ```mermaid
 erDiagram
-	User ||--o{ Tweet : posts
-	User ||--o{ Follows : follows
-	User {
-		int user_id PK
+	m_Card ||--o{ Tweet : posts
+	m_Card ||--o{ Follows : follows
+	m_Card {
+		int Card_id PK
 		string name
-		string handle
-		string bio
-		date joined
+		int Card_type
+		int cost
+		int zerohour_relation_id
 		string location
 		string website
 		string profile_picture
