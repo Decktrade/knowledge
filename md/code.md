@@ -29,6 +29,7 @@ Start-Process .
 | Ctrl+B        | サイドバーの開閉                  |
 | Ctrl+J        | ターミナルの開閉                  |
 | Ctrl+,        | 設定ウィンドウの開閉              |
+|Ctrl + Shift + P| コマンドパレットの開閉           |
 
 ## ワークスペース
 
