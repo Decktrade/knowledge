@@ -15,7 +15,7 @@
 
 ## 外部 CSS
 
-@import ".\external\test.css"
+@import ".\external\test.md\test.css"
 
 ### 箇条書き
 
@@ -101,41 +101,41 @@ end
 
 ※ローカルファイルはだめっぽい
 → 外部ファイルのインポート を使用
-![エビフライトライアングル](.\external\ebihurai.png "サンプル")
+![エビフライトライアングル](.\external\test.md\ebihurai.png "サンプル")
 
 ### 外部ファイルのインポート
 
 画像ファイル
-@import ".\external\ebihurai.png"
+@import ".\external\test.md\ebihurai.png"
 
 ---
 
 csv ファイル
-@import ".\external\test.csv"
+@import ".\external\test.md\test.csv"
 
 ---
 
 html ファイル
-@import ".\external\test.html"
+@import ".\external\test.md\test.html"
 
 ---
 
 jsonファイル
-@import ".\external\test.json"
+@import ".\external\test.md\test.json"
 
 ---
 
 md ファイル
-@import ".\external\test.md"
+@import ".\external\test.md\test.md"
 
 ---
 
 ソースコード(js)
 ※プレビューされない
-@import ".\external\test.js"
+@import ".\external\test.md\test.js"
 
 ---
 
 ソースコード(Python)
 ※プレビューされる
-@import ".\external\test.py" {cmd}
+@import ".\external\test.md\test.py" {cmd}

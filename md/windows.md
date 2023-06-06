@@ -26,7 +26,7 @@
 
 [参考](https://d-spport.jp/memorandum/sharepoint001/)
 
-@import ".\external\Sharepoint_01.png"
+@import ".\external\windows.md\Sharepoint_01.png"
 
 ## コマンド
 
