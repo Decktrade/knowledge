@@ -54,3 +54,53 @@ Get-ChildItem -Recurse -Name -File -Filter *.ini > ls.ini.txt
 ping TTL指定オプション
 ping -i [TTL] 送り先
 ※Linuxは -m [TTL]
+
+
+### ハードディスクのパーティション作成
+
+(windows11)
+`コントロール パネル\すべてのコントロール パネル項目\Windows ツール`
+
+コンピュータの管理
+@import ".\external\windows.md\partition01.png"
+
+ディスクの管理
+@import ".\external\windows.md\partition02.png"
+
+分割したいドライブを右クリックし、「ボリュームの縮小」を選択
+
+@import ".\external\windows.md\partition03.png"
+
+利用可能な縮小領域のボリュームを照会中(時間がちょっとかかる)
+
+@import ".\external\windows.md\partition04.png"
+
+縮小領域(分割するパーティション)のサイズ指定
+
+@import ".\external\windows.md\partition05.png"
+
+分割した領域にドライブを割り当て
+割り当てた領域を右クリック → 「新しいシンプル ボリューム」
+
+@import ".\external\windows.md\partition06.png"
+
+ボリューム割り当てウィザード①
+
+@import ".\external\windows.md\partition_W01.png"
+
+ボリューム割り当てウィザード②
+
+@import ".\external\windows.md\partition_W02.png"
+
+ボリューム割り当てウィザード③
+
+@import ".\external\windows.md\partition_W03.png"
+
+ボリューム割り当てウィザード④
+
+@import ".\external\windows.md\partition_W04.png"
+
+ボリューム割り当てウィザード⑤
+
+@import ".\external\windows.md\partition_W05.png"
+
