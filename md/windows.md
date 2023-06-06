@@ -1,19 +1,28 @@
+- [Windows コマンド・Office 関連](#windows-コマンドoffice-関連)
+  - [Office](#office)
+    - [Excel](#excel)
+      - [アドイン](#アドイン)
+      - [テンプレート集](#テンプレート集)
+      - [CSV読込](#csv読込)
+      - [Sharepointローカルにコピー](#sharepointローカルにコピー)
+  - [コマンド](#コマンド)
+    - [net useコマンド](#net-useコマンド)
+    - [PowerShell](#powershell)
+    - [ハードディスクのパーティション作成](#ハードディスクのパーティション作成)
+
+
 # Windows コマンド・Office 関連
-
-### ES(ファイルのハッシュ取得用アプリ)
-
-[ダウンロード](https://www.voidtools.com/support/everything/command_line_interface/)
-※実行ファイルをダウンロードして Path を通す必要あり
 
 ## Office
 
 ### Excel
+
+#### アドイン
 多機能アドイン
 [詳細](https://confrage.jp/excel%E3%82%92%E8%B6%85%E4%BE%BF%E5%88%A9%E3%81%AB%E3%81%99%E3%82%8Brelaxtools-addin%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9/)
 
+#### テンプレート集
 [ExcelでDFD作成テンプレート](https://plus-pm.jp/blog/work-flow-excel-horizontal-swim-lane/#google_vignette)
-
-
 
 #### CSV読込
 [参考](https://global-wing.com/activity/csv_character_code.html)
