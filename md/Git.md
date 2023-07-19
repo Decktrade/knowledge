@@ -54,6 +54,10 @@ git push --force <remote> <branch>
 ※複数人での開発の際は、`--force-with-lease`の使用が推奨されている。
 [参考](https://www-creators.com/archives/5168)
 
+### コミットをまとめる
+[参考](https://dev.classmethod.jp/articles/git-commit-matomeru/)
+
+
 ## Github
 
 パスワード認証は廃止されました。
